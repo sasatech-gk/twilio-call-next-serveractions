@@ -1,6 +1,14 @@
 import {client} from "@/utils/twilio/client"
 
+const VoiceResponse = require('twilio').twiml.VoiceResponse;
+
+
 export default async function Home() {
+  const response = new VoiceResponse();
+  response.say('Hello!');
+
+  console.log(response.toString());
+
   return (
     <form action={async (formData) => {
       "use server";

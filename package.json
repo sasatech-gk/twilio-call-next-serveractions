@@ -1,5 +1,5 @@
 {
-  "name": "call_app",
+  "name": "twilio-call-nextjs-serveractions",
   "version": "0.1.0",
   "private": true,
   "scripts": {
